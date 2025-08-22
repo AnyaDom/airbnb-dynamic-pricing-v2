@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (avoid pushing large datasets)
+data/*.csv
+data/*.xlsx
+data/*.parquet
+data/*.json
+data/*.zip
+
+# Virtual Environments
+.env
+venv/
+*.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
