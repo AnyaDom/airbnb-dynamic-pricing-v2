@@ -1,22 +1,20 @@
-# 📊 Project Title
+# 🏠 Airbnb Dynamic Pricing
 
 ## 📌 Overview
-Short description of the project, problem, and solution.
+Built a machine learning model to predict Airbnb listing prices using regression, random forest, ARIMA, and neural networks.
 
 ## 📂 Structure
-- `data/` → datasets (only small samples, large ones linked in README)
-- `notebooks/` → Jupyter notebooks
-- `src/` → reusable Python scripts
-- `results/` → charts, reports, and figures
-- `requirements.txt` → dependencies
+- **data/** → datasets or dataset link  
+- **notebooks/** → step-by-step analysis  
+- **src/** → reusable scripts  
+- **results/** → charts and reports  
+- **requirements.txt** → dependencies  
+
+## 📈 Results
+- Random Forest improved accuracy by **18%** over Linear Regression  
+- Seasonal ARIMA effectively captured price trends  
 
 ## 🚀 How to Run
-1. Clone the repository
-2. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Open the notebooks or run scripts
-
-## 👤 Author
-Your Name · [LinkedIn](https://linkedin.com) · [Portfolio](https://yourportfolio.com)
+1. Clone this repo  
+   ```bash
+   git clone https://github.com/your-username/airbnb-dynamic-pricing.git
