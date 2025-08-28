@@ -11,6 +11,13 @@ Built a machine learning model to predict Airbnb listing prices using regression
 - **requirements.txt** → dependencies  
 
 ## 📈 Results
+**Data Collection**: Sourced Airbnb datasets (listings, reviews, calendar) for Asheville, NC from InsideAirbnb.com
+**Data Preprocessing**: Cleaned data, handled missing values/outliers, performed encoding, standardization, and skew transformation
+**Correlation Analysis**: Built correlation matrix to identify price relationships
+**Hypothesis Testing**: Used ANOVA and linear regression to test factor significance
+**Machine Learning**: Implemented linear regression, random forest, decision trees, and ARIMA time series models
+**Neural Network**: Developed hybrid model combining ARIMA with key variables
+**Evaluation**: Assessed model performance and analyzed residuals
 - Random Forest improved accuracy by **18%** over Linear Regression  
 - Seasonal ARIMA effectively captured price trends  
 
